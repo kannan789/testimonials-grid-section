@@ -20,29 +20,53 @@
     .container {
       width: 80%;
       margin: auto;
+      display: flex;
+    }
+
+    .cont-left {
+      width: 80%;
+      display: flex;
+      gap: 10px;
+      flex-direction: column;
+
+    }
+
+    .row-one {
+      display: flex;
+      gap: 10px;
+    }
+
+    .row-two {
+      display: flex;
+      gap: 10px;
     }
 
     .section-one {
       background-color:  hsl(263, 55%, 52%);
-      color: hsl(0, 0%, 100%);;
+      color: hsl(0, 0%, 100%);
+      width: 70%;
     }
 
     .section-two {
       background-color: hsl(217, 19%, 35%);
-      color: hsl(0, 0%, 100%);;
+      color: hsl(0, 0%, 100%);
+      width: 25%;
     }
 
     .section-three {
       background-color: hsl(0, 0%, 100%);
+      width: 25%;
     }
 
     .section-four {
       background-color: hsl(0, 0%, 7%);
       color: hsl(0, 0%, 100%);
+      width: 70%;
     }
 
     .section-five {
       background-color: hsl(0, 0%, 100%);
+      width: 18%;
     }
     
   </style>
@@ -50,6 +74,8 @@
 <body>
 
   <div class="container">
+    <div class="cont-left">
+    <div class="row-one">
     <div class="section-one">
 
       <div>
@@ -86,7 +112,8 @@
   for a big company. This was one of the best investments I’ve made in myself. ”
 </div>
 </div>
-
+</div>
+<div class="row-two">
 <div class="section-three">
 
   <div>
@@ -124,7 +151,8 @@
 </div>
 </div>
 
-
+</div>
+</div>
 <div class="section-five">
   <div>
   Kira Whittle
