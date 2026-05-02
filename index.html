@@ -25,13 +25,16 @@
       width: 80%;
       margin: auto;
       display: flex;
+      align-items: center;
+      justify-content: center;
       height: 70vh;
+      gap: 20px
     }
 
     .cont-left {
       width: 80%;
       display: flex;
-      gap: 10px;
+      gap: 20px;
       flex-direction: column;
 
     }
@@ -49,7 +52,7 @@
     .section-one {
       background-color:  hsl(263, 55%, 52%);
       color: hsl(0, 0%, 100%);
-      width: 70%;
+      width: 50%;
       border-radius: 5px;
       padding: 20px;
       display: flex;
@@ -83,7 +86,7 @@
     .section-four {
       background-color: hsl(0, 0%, 7%);
       color: hsl(0, 0%, 100%);
-      width: 70%;
+      width: 50%;
       border-radius: 5px;
       padding: 20px;
       display: flex;
@@ -93,7 +96,7 @@
 
     .section-five {
       background-color: hsl(0, 0%, 100%);
-      width: 20%;
+      width: 15%;
       border-radius: 5px;
       padding: 20px;
       display: flex;
@@ -112,10 +115,28 @@
       border-radius: 50%;
     }
 
+    .profile-name {
+      font-size: 12px;
+    }
+
+    .profile-info {
+      font-size: 10px;
+    }
+
     .profile-details {
       display: flex;
       flex-direction: column;
     }
+
+
+
+    .profile-text-one {
+    font-weight: 500;
+  }
+
+  .profile-text-two {
+    font-size: 10px;
+  }
     
   </style>
 </head>
@@ -129,19 +150,19 @@
       <div class="profile-part">
         <img src="./images/image-daniel.jpg" height="30" width="30">
         <div class="profile-details">
-          <div>Daniel Clifford</div>
-          <div>Verified Graduate</div>
+          <div class="profile-name">Daniel Clifford</div>
+          <div class="profile-info">Verified Graduate</div>
              
              
         </div>
       </div>
 
-      <div>
+      <div class="profile-text-one">
   I received a job offer mid-course, and the subjects I learned were current, if not more so, 
   in the company I joined. I honestly feel I got every penny’s worth.
       </div>
 
-      <div>
+      <div class="profile-text-two">
   “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a 
   transition and have heard some people who had an amazing experience here. I signed up 
   for the free intro course and found it incredibly fun! I enrolled shortly thereafter. 
@@ -155,19 +176,19 @@
     <div class="profile-part">
       <img src="./images/image-jonathan.jpg" height="30" width="30">
       <div class="profile-details">
-          <div>Jonathan Walters</div>
-          <div>Verified Graduate</div>
+          <div class="profile-name">Jonathan Walters</div>
+          <div class="profile-info">Verified Graduate</div>
           
           
       </div>
     </div>
   </div>
 
-<div>
+<div class="profile-text-one">
   The team was very supportive and kept me motivated
 </div>
 
-<div>
+<div class="profile-text-two">
   “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer 
   for a big company. This was one of the best investments I’ve made in myself. ”
 </div>
@@ -181,19 +202,19 @@
     <div class="profile-part">
       <img src="./images/image-jeanette.jpg" height="30" width="30">
       <div class="profile-details">
-          <div>Jeanette Harmon</div>
-          <div>Verified Graduate</div>
+          <div class="profile-name">Jeanette Harmon</div>
+          <div class="profile-info">Verified Graduate</div>
           
           
       </div>
     </div>
   </div>
 
-<div>
+<div class="profile-text-one">
   An overall wonderful and rewarding experience
 </div>
 
-<div>
+<div class="profile-text-two">
   “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living 
   while doing something I love. ”
 </div>
@@ -205,20 +226,20 @@
     <div class="profile-part">
       <img src="./images/image-patrick.jpg" height="30" width="30">
       <div class="profile-details">
-          <div>Patrick Abrams</div>
-          <div>Verified Graduate</div>
+          <div class="profile-name">Patrick Abrams</div>
+          <div class="profile-info">Verified Graduate</div>
           
           
       </div>
     </div>
   </div>
 
-<div>
+<div class="profile-text-one">
   Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and 
   learning from their experiences was easy.
 </div>
 
-<div>
+<div class="profile-text-two">
   “ The staff seem genuinely concerned about my progress which I find really refreshing. The program 
   gave me the confidence necessary to be able to go out in the world and present myself as a capable 
   junior developer. The standard is above the rest. You will get the personal attention you need from 
@@ -233,19 +254,19 @@
     <div class="profile-part">
       <img src="./images/image-kira.jpg" height="30" width="30">
       <div class="profile-details">
-          <div>Kira Whittle</div>
-          <div>Verified Graduate</div>
+          <div class="profile-name">Kira Whittle</div>
+          <div class="profile-info">Verified Graduate</div>
           
           
       </div>
     </div>
   </div>
 
-<div>
+<div class="profile-text-one">
   Such a life-changing experience. Highly recommended!
 </div>
 
-<div>
+<div class="profile-text-two">
   “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from 
   professionals who can help me learn programming step by step. I was encouraged to enroll by a former 
   student of theirs who can only say wonderful things about the program. The entire curriculum and staff 
